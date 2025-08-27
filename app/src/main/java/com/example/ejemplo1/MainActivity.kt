@@ -18,6 +18,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent { //Aaliyah Gallardo García
+=======
+        setContent { //22130821 Aaliyah Gallardo
+
             Ejemplo1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
